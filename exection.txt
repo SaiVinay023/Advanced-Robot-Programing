@@ -1,0 +1,11 @@
+// instructions for exection
+
+1)setup the configuration file in the same folder as such of the source code file.
+2)set the path in the code for accesing configuration file if necessary.
+3) Create a logfile. txt in the same folder as of source code.set the path in the code for accesing log file if necessary.
+4) As we have all the 3 files in the same folder, you can just directly execute it in terminal.
+6)gedit configurationfile.txt ( you can open it and change the values of RF,Note: I have taken only one value in configuration file, which is RF value).
+5)gedit code.c (opening the code file required)
+6)gcc -o code code.c ( for compiling, if there are no errors we can proceed)
+7)./code (this command is for execting the code ouput in terminal)
+8)gedit logfile.txt ( To open the log file and check if any thing is saved)

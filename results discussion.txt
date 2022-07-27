@@ -1,0 +1,20 @@
+// opsys- ubuntu16.04LTS processor inter i3 core
+
+I have attached the log file for your reference which I got.
+
+Log file
+holds a series of text lines in couples:
+<timestamp> <from G | from S > <value>
+<timestamp> <sent value> (a sample of the wave)
+The log file contents is output anytime G receives a suitable request from the console.
+
+So we got the data saved in the log file as discusse.
+
+I have connected the pipes from S to P, P to L, G to P.
+And we stored the values and timestamps of G and S.
+
+And the computation of P for new token is also succesful.
+
+And with the results we got, we can draw an sinewave.
+
+I have attached the log file with values I got.

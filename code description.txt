@@ -1,0 +1,16 @@
+Code description//
+
+Here I couldve done code for the pipes connection in the time I got. I couldn't add socket connection. Sorry, I couldn't add the socket to the code.
+
+1)Here in this code in first we declared the libraries which are used in the code.
+2)we have taken void signal handlers for intializing and stopping S process.later we call these in the main function.
+3)we have declared the void function for partial delay of 1000ms in the starting.
+4)And then main function starts, here we declared the pipes which are connected initially
+5)And we have given a function for opening and reading configuration file, it reads the RF value from the configuration file.
+6)And then S receives possix signals from console, and that is saved in the logfile.txt, as we have to take S values.
+7)For our usage we printed the logfile values on console, with that the S code ends.
+8)we will come to L code,in L process we just open logfile, read&write permission, error handling, L function is used to save the values to log file. And then the L code ends.
+9)for G process we give the pipe connection and its a child process of P.
+10)Then wwe come to the part of computing the value of token in P, the received token is calculated and the modified new token is delivered.
+11)we will attach that values to the log file, and we can see that token values are printed in logfile.
+
