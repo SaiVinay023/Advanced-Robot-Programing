@@ -1,8 +1,8 @@
-#Project Name: Advanced Robot Programming for Server Connection
-Project Description:
+# Project Name: Advanced Robot Programming for Server Connection
+# Project Description:
 The Advanced Robot Programming for Server Connection project focuses on developing a robust multi-process system that enables communication between two computers within a local area network (LAN). This system facilitates the exchange of floating-point data tokens, simulating real-time interactions akin to robotic communication.
 
-Technical Implementation:
+# Technical Implementation:
 Architecture Overview:
 
 The project is structured around a client-server model where each computer runs multiple processes (P, G, S, L) for token generation, logging, and signal processing.
